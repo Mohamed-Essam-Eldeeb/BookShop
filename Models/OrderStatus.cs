@@ -9,5 +9,7 @@ namespace BookShop.Models
         public int Id { get; set; }
         [Required, MaxLength(20)]
         public string? StatusName { get; set; }
+        [Required]
+        public int StatusId { get; set; }
     }
 }
